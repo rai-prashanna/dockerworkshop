@@ -1,19 +1,15 @@
-# dockerworkshop-1
+# dockerworkshop-3
 
-#### Problem
+#### Objectives
 
-Create a Dockerfile with following environment:
+create docker container with following environment:
 
-* Use the ubuntu linux image
-* Setup nginx server
-* Copy this folder named static-content from the cloned repo to the /usr/share/nginx/html
-* Expose the port 9999 in the host and link with the default nginx port i.e 80
-* Push your Dockerfile to the repo with new branch name.
-
-When the docker is run, static-content/index.html file should be accessible from the browser at 
-localhost:9999/
-or
-http://localhost:9000/site/index.html
+* Use the proper docker image from https://hub.docker.com
+* Expose the port 3306 in the host 
+* link mysql container with phpmyadmin web client interface to view mysql container   
+ 
+When the docker is run, web interface of phpmyadmin accessible from the browser at 
+localhost:8080/
 
   
 
