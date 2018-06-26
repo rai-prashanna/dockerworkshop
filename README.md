@@ -1,4 +1,4 @@
-# dockerworkshop-1
+# dockerworkshop-2
 
 #### Problem
 
@@ -10,7 +10,7 @@ Create a Dockerfile with following environment:
 * Expose the port 9999 in the host and link with the default nginx port i.e 80
 * Push your Dockerfile to the repo with new branch name.
 
-When the docker is run, static-content/index.html file should be accessible from the browser at 
+When the container made from our custom image, static-content/index.html file should be accessible from the browser at 
 localhost:9999/
 or
 http://localhost:9000/site/index.html
