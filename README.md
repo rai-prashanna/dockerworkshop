@@ -1,4 +1,4 @@
-# dockerworkshop-1
+# dockerworkshop-2
 
 #### Problem
 
@@ -14,6 +14,15 @@ When the docker is run, static-content/index.html file should be accessible from
 localhost:9999/
 or
 http://localhost:9000/site/index.html
+
+#### Solution
+#### Installation step for nginx
+
+* apt-get update  
+* apt-get install nginx -y
+* nginx -g 'daemon off;' // to run nginx service in foreground
+
+
 
   
 
