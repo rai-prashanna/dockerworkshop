@@ -24,7 +24,7 @@ http://localhost:9000/site/index.html
 
 #### Instruction to build docker image
 
-* cd <go-to-working-directory-where-Dockerfile is located>
+* cd {go-to-working-directory-where-Dockerfile is located}
 * docker build -t <docker-image-name> .
 * docker run -p 9000:80 -v $PWD/static-content:/usr/share/nginx/html <docker-image-name> 
 
